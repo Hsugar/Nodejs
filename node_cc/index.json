@@ -1,0 +1,18 @@
+{
+    "title": "news",
+    "time": "(new Date).toString()",
+    "list": [
+        {
+            "id": "1",
+            "name": "Lily"
+        },
+        {
+            "id": "2",
+            "name": "Jenny"
+        },
+        {
+            "id": "3",
+            "name": "Join"
+        }
+    ]
+}

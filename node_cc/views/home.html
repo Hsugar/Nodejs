@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+</head>
+<body>
+    <h2>Hello art-template Home gogohome</h2>{{list}}
+    <div id="main">
+        <ul>
+            {{each list}}
+            <li>
+                {{$value}}
+                <p>编号：{{$value.telephone_code}}</p>
+                <p>姓名：{{$value.mobile_country}}</p>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</body>
+</html>
